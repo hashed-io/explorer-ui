@@ -65,11 +65,11 @@ jobs:
         aws-region: us-east-1
 
     - name: Show contents of the deployment directory
-      run: ls -R dist/
+      run: ls -R explorer-ui/
 
     - name: Deploy to S3
       run: |
-        aws s3 sync dist/explorer-ui s3://explorer-md5-website
+        aws s3 sync explorer-ui s3://explorer-md5-website
 
     - name: CloudFront cache invalidation
       run: |
