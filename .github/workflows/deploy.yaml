@@ -38,11 +38,22 @@ jobs:
     - name: Show directory contents
       run: ls -R
 
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: dist
+        path: dist
+
   deploy:
     runs-on: ubuntu-latest
     needs: build
 
     steps:
+    - name: Download artifacts
+      uses: actions/download-artifact@v3
+      with:
+        name: dist
+
     - name: Show directory contents
       run: ls -R
 
