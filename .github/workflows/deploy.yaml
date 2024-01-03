@@ -69,7 +69,7 @@ jobs:
 
     - name: Deploy to S3
       run: |
-        aws s3 sync explorer-ui s3://explorer-md5-website
+        aws s3 sync explorer-ui s3://explorer-hashed-website
 
     - name: CloudFront cache invalidation
       run: |
