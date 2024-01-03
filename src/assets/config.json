@@ -1,0 +1,38 @@
+{
+  "polkadot": {
+    "substrateRpcUrlArray": [
+      "wss://rpc.polkadot.io"
+    ],
+    "subsquid": {
+      "archiveUrl": "https://polkadot.explorer.subsquid.io/graphql",
+      "explorerUrl": "https://squid.subsquid.io/polkadot-explorer/graphql",
+      "giantSquidExplorerUrl": "https://squid.subsquid.io/gs-explorer-polkadot/graphql",
+      "giantSquidMainUrl": "https://squid.subsquid.io/gs-main-polkadot/graphql",
+      "giantSquidStatsUrl": "https://squid.subsquid.io/gs-stats-polkadot/graphql"
+    },
+    "coingecko": {
+      "coinId": "polkadot"
+    },
+    "name": "Polkadot",
+    "image": "polkadot.svg"
+  },
+  "acala": {
+    "substrateRpcUrlArray": [
+      "wss://acala-rpc-0.aca-api.network/",
+      "wss://acala-polkadot.api.onfinality.io/public-ws",
+      "wss://acala-rpc.dwellir.com"
+    ],
+    "subsquid": {
+      "archiveUrl": "https://acala.explorer.subsquid.io/graphql",
+      "giantSquidExplorerUrl": "https://squid.subsquid.io/gs-explorer-acala/graphql",
+      "giantSquidMainUrl": "https://squid.subsquid.io/gs-main-acala/graphql"
+    },
+    "coingecko": {
+      "coinId": "acala"
+    },
+    "name": "Acala",
+    "relayChain": "polkadot",
+    "paraId": 2000,
+    "image": "acala.svg"
+  }
+}
