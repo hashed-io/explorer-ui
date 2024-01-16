@@ -34,7 +34,7 @@
     "substrateRpcUrlArray": [
       "wss://c1.hashed.live/"
     ],
-    "explorerWsUrlArray": ["ws://3.91.213.232:8000/graphql-ws/"],
+    "explorerWsUrlArray": ["wss://graphql.hashed.live/graphql/"],
     "name": "Hashed Network",
     "relayChain": "polkadot",
     "paraId": 2093,
@@ -42,9 +42,9 @@
   },
   "md5": {
     "substrateRpcUrlArray": [
-      "wss://c1.md5.hashed.live/"
+      "wss://c1md5.hashed.live/"
     ],
-    "explorerWsUrlArray": ["ws://52.23.227.139:8000/graphql-ws/"],
+    "explorerWsUrlArray": ["wss://graphql.md5.hashed.live/graphql/"],
     "name": "MD5 Network",
     "relayChain": "rococo",
     "paraId": 2093,
