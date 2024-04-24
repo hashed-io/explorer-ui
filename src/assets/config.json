@@ -32,7 +32,7 @@
   },
   "hashed": {
     "substrateRpcUrlArray": [
-      "wss://c1.hashed.live/"
+      "wss://c1.hashed.network/"
     ],
     "explorerWsUrlArray": ["wss://graphql.hashed.live/graphql/"],
     "name": "Hashed Network",
@@ -42,7 +42,7 @@
   },
   "md5": {
     "substrateRpcUrlArray": [
-      "wss://c1md5.hashed.live/"
+      "wss://c1md5.hashed.network/"
     ],
     "explorerWsUrlArray": ["wss://graphql.md5.hashed.live/graphql/"],
     "name": "MD5 Network",
